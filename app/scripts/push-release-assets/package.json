@@ -5,7 +5,7 @@
   "main": "push-release-assets.js",
   "type": "module",
   "scripts": {
-    "start": "node push-release-assets.js"
+    "start": "node init && node push-release-assets.js"
   },
   "author": "Joaquim Rocha <joaquim.rocha@microsoft.com>",
   "license": "MIT",
